@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #eee;
+  }
+  
+  nav {
+    width: 100;
+    height: 100px;
+    background-color: #fff;
+  }
+  
+  ul {
+    margin-left: 60px;
+  
+  }
+  
+  ul li {
+    list-style: none;
+    line-height: 100px;
+    float: left;
+  
+  }
+  
+  ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 20px;
+  
+  }
+  
+  ul li a:hover {
+    color: red;
+  }
+  
+  *{
+      padding: 0;
+      margin: 0;
+      font-family:"Josefin Sans", sans-serif;
+      box-sizing: border-box;
+  }
+  .hero{
+      height: 100vh;
+      width: 100%;
+      background-color: gray;
+      background-size: cover;
+      background-position: center;
+  }
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 45px;
+      padding-left: 8%;
+      padding-right: 8%;
+  }
+  .logo{
+      color: #f9004d;
+      font-size: 35px;
+      letter-spacing: 1px;
+      cursor: pointer;
+  }
+  span{
+      color: #f9004d;
+  }
+  nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px 25px; 
+  }
+  nav ul li{
+      color: #f9004d;
+      text-decoration: none; 
+      font-weight: bold;
+      text-transform: capitalize;
+  }
+  nav ul li a:hover{
+      color:#f9004d;
+      transition: .4s;
+  }
+.name{
+  color: aliceblue;
+}
+  .btn{
+      background-color: #f9004d;
+      color: #f9004d;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 10px 25px;
+      border-radius: 30px;
+      transition: 'transform' .4s;
+  }
+  .btn:hover{
+      transform: scale(1.2);
+  }
+  .content{
+      position: absolute;
+      top: 30%;
+      left:8%;
+      transform: translateY(-50);
+  }
+
+  h1{
+      color: black;
+      margin: 20px 0px 20px;
+      font-size: 75px;
+  }
+  h3{
+      color: #f9004d;
+      font-size: 25px;
+      margin-bottom: 50px;
+  }
+  h4{
+      color: black;
+      letter-spacing: 2px;
+      font-size: 20px;  
+  }
+  .newsletter form{
+      width: 380px;
+      max-width: 100%;
+      position: relative;
+  }
+  .newsletter form input:first-child{
+      display: inline-block;
+      width: 100%;
+      padding: 14px 130px 14px 15px;
+      border: 2px solid black;
+      outline: none;
+      border-radius: 30px;
+  }
+  .newsletter form input:last-child{
+      position: absolute;
+      display: inline-block;
+      outline: none;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 30px;
+      background-color: black;
+      color: black;
+      box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+      top: 6px;
+      right: 6px;
+  }
+  /* Just for the Look  */
+body {
+	background: #149cbe;
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-size: 60px;
+}
+/* Wrapper to Center the Typewriter */
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centeredBox {
+	width: 100%;
+	text-align: center;
+}
+
+/* The Typewriter */
+
+#typewriter  {
+	color: black;
+}
+
+.cursor {
+	border-left: 4px solid white;
+}
+  
+  .about{
+      width: 100%;
+      padding: 100px 0px;
+      background-color: grey
+  }
+  .about img{
+      height: auto;
+      width: 430px;
+  }
+  .about-text{
+      width: 550px;
+  }
+  .main{
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .about-text h2{
+      color: white;
+      font-size: 75px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+  }
+  .about-text h5{
+      color: black;
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+  }
+  .about-text p{
+      color: #f9004d;
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 18px;
+      margin-bottom: 45px;
+  }
+  button{
+      background-color: #f9004d;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+  }
+  button:hover{
+      background-color: transparent;
+      border: 2px solid ;
+      cursor: pointer;
+  }
+  .service{
+      background: black;
+      width: 100%;
+      padding: 100px 0px;
+  } 
+  .title h2{
+      color: white;
+      font-size: 75px;
+      width: 1130px;
+      margin: 30px auto;
+      text-align: center;
+  } 
+  .box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 400px;
+  }     
+  .card{
+      height:365px;
+      width: 335px;
+      padding: 20px 35px;
+      background: black;
+      border-radius: 20px;
+      margin: 15px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+  }
+  .card i{
+      font-size: 50px;
+      display: block;
+      text-align: center; 
+      margin: 25px 0px;
+      color: #f9004d;
+  }
+  
+  h5{
+      color: white;
+      font-size: 23px;
+      margin-bottom: 15px;
+  }
+  .pra p{
+      color: white;
+      font-size: 16px;
+      line-height: 27px;
+      margin-bottom: 25px;
+  }
+  .card .button{
+      background-color: #f9004d;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 9px 22px;
+      border-radius: 30px;
+      transition: 'transform' .4s;
+  }
+  .card .button:hover{
+      background-color: transparent;
+      border: 2px solid #f9004d;
+      cursor: pointer;
+  }
+  .contact-me{
+      width: 100%;
+      height: 290px;
+      background: #191919;
+      display: flex; 
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .contact-me p{
+      color: white;
+      font-size: 30px; 
+      font-weight: bold;
+      margin-bottom: 25px;
+  }
+  .contact-me .button-two{
+      background-color: #f9004d;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+  }
+  .contact-me .button-two:hover{
+      background-color: transparent;
+      border: 2px solid #f9004d;
+      cursor: pointer; 
+  }
+  footer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: auto;
+      padding-top: 1rem ;
+      background: #101010;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+  }
+  footer p:nth-child(1){
+      font-size: 25px;
+      color: white;
+      margin-bottom: 20px;
+      font-weight: bold; 
+  }
+
+  footer p:nth-child(2){
+      color: #f9004d;
+      font-size: 17px;
+      width: 500px;
+      text-align: center;
+      line-height: 26px;
+  }
+
+  .social{
+      display: flex;
+  }
+  .social a{
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f9004d;
+      border-radius: 50%;
+      margin: 22px 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+  }
+
+  .social a:hover{
+      transform: scale(1.3);
+      transition: .3s;
+  }
+  .end{
+      position: absolute;
+      color: #f9004d;
+      bottom: 35px;
+      font-size: 14px;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      height: 100%;  
+    }
+    
+    body {
+      min-height: 100%;  
+      background: #eee;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      color: #222;
+      font-size: 14px;
+      line-height: 26px;
+      padding-bottom: 50px;
+    }
+    
+    .container {
+      max-width: 700px;   
+      background: #fff;
+      margin: 0px auto 0px; 
+      box-shadow: 1px 1px 2px #DAD7D7;
+      border-radius: 3px;  
+      padding: 40px;
+      margin-top: 50px;
+    }
+    
+    .header {
+      margin-bottom: 30px;
+    }
+      
+      .full-name {
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      
+      .first-name {
+        font-weight: 700;
+      }
+      
+      .last-name {
+        font-weight: 300;
+      }
+      
+      .contact-info {
+        margin-bottom: 20px;
+      }
+      
+      .email ,
+      .phone {
+        color: #999;
+        font-weight: 300;
+      } 
+      
+      .separator {
+        height: 10px;
+        display: inline-block;
+        border-left: 2px solid #999;
+        margin: 0px 10px;
+      }
+      
+      .position {
+        font-weight: bold;
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: underline;
+      }
+    
+    
+    
+    .details {
+      line-height: 20px;
+    }
+      .section {
+        margin-bottom: 40px;  
+      }
+      
+      .section:last-of-type {
+        margin-bottom: 0px;  
+      }
+      
+      .section__title {
+        letter-spacing: 2px;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+      
+      .section__list-item {
+        margin-bottom: 40px;
+      }
+      
+      .section__list-item:last-of-type {
+        margin-bottom: 0;
+      }
+      
+      .left ,
+      .right {
+        vertical-align: top;
+        display: inline-block;
+      }
+      
+      .left {
+        width: 60%;    
+      }
+      
+      .right {
+        text-align: right;
+        width: 39%;    
+      }
+      
+      .name {
+        font-weight: bold;
+      }
+      
+      a {
+        text-decoration: none;
+        color: #000;
+        font-style: italic;
+      }
+      
+      a:hover{
+        text-decoration: underline;
+        color: #000;
+      }
+      
+   
+        
+      .skills__item {
+        margin-bottom: 10px;  
+      }
+      
+     
+        .input {
+          display: none;
+        }
+        
+        label {
+          display: inline-block;  
+          width: 20px;
+          height: 20px;
+          background: black;
+          border-radius: 20px;
+          margin-right: 3px;
+        }
+        
+        input:checked + label {
+          background: black;
+        }

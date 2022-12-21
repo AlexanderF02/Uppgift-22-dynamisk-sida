@@ -1,0 +1,38 @@
+{
+    "employment": [
+        {
+            "time": "2020-2022",
+            "jobTitle": "Primo ciao ciao",
+            "location": "Stockholm",
+            "text": "Jobba som servitör och bartender"
+        },
+        {
+            "time": "2019-2020",
+            "jobTitle": "Jobba i butik ",
+            "location": "Stockholm",
+            "text": "Jobba inom kassa och hjälpa kunder med kläder, smycken mm."
+        },
+        {
+            "time": "2015-2017",
+            "jobTitle": "Tennistränare",
+            "location": "Stockholm/Lidingö",
+            "text": "Jobba som tennistränare för barn mellan 7-10 år samt privattränare för äldre."
+        }
+        
+    ],
+    "education": [
+        "2019-2021 NTI handelsgymansiet (Handel och Administration).",
+        "2012-2018 Källängens skola Lidingö"
+       
+    ],
+    "internships": [
+        {
+            "companyName": "Holmstrand bil: ",
+            "text": "Sålde och rekonda nya och begagnade bilar. "
+        },
+        {
+            "companyName": "Expressen:",
+            "text": "Hjälpte till som programmerare."
+        }
+    ]
+}
